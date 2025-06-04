@@ -1,2 +1,1 @@
-# Youtube-Disable-Chan-Trailer-Autoplay
-Disable the autoplay of a channel's trailer.
+Install [Tampermonkey](https://www.tampermonkey.net/) and click [yt_stop_channel_autoplay.user.js](https://github.com/Invertex/Youtube-Stop-Channel-Trailer-Autoplay/raw/main/yt_stop_channel_autoplay.user.js)
