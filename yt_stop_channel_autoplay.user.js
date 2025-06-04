@@ -20,11 +20,9 @@ function stopVidPlay(e)
 }
 
 async function onPageUpdate() {
-   // console.log("on page change");
     if(!window.location.href.includes('.com/@')) { return; }
 
     let trailerElemContainer = await awaitElem(document.body, 'ytd-app #content #player-container .html5-video-player');
-
 
     if(addHasAttribute(trailerElemContainer, 'yt-stop-autoplay')) { return; }
     let trailerElem = await awaitElem(trailerElemContainer, 'video');
